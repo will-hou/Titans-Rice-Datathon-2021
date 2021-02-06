@@ -1,6 +1,4 @@
 # Titans-Rice-Datathon-2021
+Telemedicine is on the rise... who's taking advantage and who's being left behind?
+
 We're making a healthcare data project that even the Teen Titans would guffaw at.
-
-
-#### Jacob says
-> Got my eyes on best visualization and 1st place.
