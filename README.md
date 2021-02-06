@@ -14,7 +14,13 @@ Our project was inspired by the relationship between the COVID pandemic and the 
 
 Our team developed a metric measuring how likely people in a census tract would be to use available telemedicine services. 
 
+![Weighting Categories](weighting_cats.PNG)
+
+
 The LOT score is initially calculated as a weighted sum of available demographic trends in the tract. This is a continuous variable and it is referred to as the “raw” LOT score. We computed a total of 12 distinct demographic weights based on data collected from the CDC’s June 2020 survey of telemedicine usage. The weight for each demographic category measures the likelihood of that demographic using telemedicine services if offered. It is calculated by dividing the % increase of telehealth availability by the % of survey respondents who scheduled a telehealth visit. The raw LOT score is then computed by multiplying each demographic weight by the percentage of the tract population identifying with a demographic. 
+
+![Raw LOT Distribution](lot_dist.PNG)
+![LOT Bins Distribution](lot_bins.PNG)
 
 To arrive at our final LOT score, we segmented continuous raw LOT scores into 5 distinct categorical bins labeled 1-5. The population in tracts with a LOT score of 5 are more likely to use available telemedicine services compared to a tract with a LOT score of 1. Please refer to the following graph to view the transformation of raw LOT scores to the final LOT score. 
 
@@ -26,5 +32,6 @@ Are there any trends in telemedicine usage across the Houston metropolitan area.
 
 Generally, we noticed that populations further from the city center are more likely to use telehealth services and we see circular trends of increasing LOT scores moving further from the city center. We then examined the location of Houston hospitals.
 
+![Hospital Data]( hosp_dist.PNG)
 
 Hospitals are more sparse on the outskirts of the city where we also see higher LOT scores. There is also a high density of hospitals near the city center, where we see lower LOT scores. It appears telemedicine options become more important when there are fewer hospitals for residents to visit. 
