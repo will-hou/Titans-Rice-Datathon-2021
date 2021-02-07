@@ -5,7 +5,13 @@ Telemedicine is on the rise... who's taking advantage and who's being left behin
 
 # Overview
 
-Our project was inspired by the relationship between the COVID pandemic and the availability of and affinity toward telemedicine. We noticed that telemedicine literature has increased in quantity over the past decade or so, and looked at the recurring themes in those studies. Noting that different demographics had differing access to telemedicine, we included the extent to which each group scheduled a virtual appointment. We determined which age, race, gender, and education level groups were most likely to seek telemedical services if offered, and then analyzed the presence of those groups in the census tracts of Houston to determine how willing the general population of each tract was to seek them. Of additional interest was the layout of Houston hospitals in comparison to census tracts. We ultimately found an opportunity for identifying areas that could benefit from telemedicine, but are currently underserved.
+Our project was inspired by the relationship between the COVID pandemic and the availability of and affinity toward telemedicine. We noticed that telemedicine literature has increased in quantity over the past decade or so, and looked at the recurring themes in those studies.
+
+![Telemed on the rise](figures/Telemedicine%20on%20the%20Rise.jpg) 
+
+Noting that different demographics had differing access to telemedicine, we included the extent to which each group scheduled a virtual appointment. We determined which age, race, gender, and education level groups were most likely to seek telemedical services if offered, and then analyzed the presence of those groups in the census tracts of Houston to determine how willing the general population of each tract was to seek them. Of additional interest was the layout of Houston hospitals in comparison to census tracts. We ultimately found an opportunity for identifying areas that could benefit from telemedicine, but are currently underserved.
+
+
 
 
 ![Yes Indicators](figures/yes_by_indicator.png)
@@ -34,4 +40,4 @@ Generally, we noticed that populations further from the city center are more lik
 
 ![Hospital Data](figures/hosp_dist.PNG)
 
-Hospitals are more sparse on the outskirts of the city where we also see higher LOT scores. There is also a high density of hospitals near the city center, where we see lower LOT scores. It appears telemedicine options become more important when there are fewer hospitals for residents to visit. 
+Hospitals are more sparse on the outskirts of the city where we also see higher LOT scores. There is also a high density of hospitals near the city center, where we see lower LOT scores. It appears telemedicine options become more important when there are fewer hospitals for residents to visit. However, we also observed high LOT scores concentrated in the southwest portion of downtown Houston where there are a lot of hospitals. More analysis into this phenomenon is definitely needed and we hope our project can provide a starting point for further exploration.
