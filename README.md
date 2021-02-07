@@ -1,6 +1,9 @@
-We're making a healthcare data project that even the Teen Titans would guffaw at.
+We're making a healthcare data project that even the Teen Titans would guffaw at. Check us out on [Devpost](https://devpost.com/software/team-titans-telemedicine)!
+
 
 # Titans-Rice-Datathon-2021
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
 Telemedicine is on the rise... who's taking advantage and who's being left behind?
 
 # Overview
@@ -16,7 +19,7 @@ Noting that different demographics had differing access to telemedicine, we incl
 
 ![Yes Indicators](figures/yes_by_indicator.png)
 
-# Likelihood of Telehealth (LOT) Score
+# Likelihood of Telemedicine (LOT) Score
 
 Our team developed a metric measuring how likely people in a census tract would be to use available telemedicine services. 
 
